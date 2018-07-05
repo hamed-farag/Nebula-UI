@@ -2037,4 +2037,222 @@ ul.tab-filters li a i.fa-chevron-right {
   padding-bottom: 9px;
 }
 
+.tab-control.mini-side-nav {
+  background-color: #fff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.tab-control.mini-side-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-control.mini-side-nav ul li a i {
+  display: none;
+}
+
+@media only screen and (min-width: 960px) {
+  .tab-control.mini-side-nav {
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .tab-control.mini-side-nav ul li {
+    display: block;
+    margin-left: 0;
+    margin-top: 0.25rem;
+  }
+  .tab-control.mini-side-nav ul li:first-child {
+    margin-top: 0;
+  }
+  .tab-control.mini-side-nav ul li.active a {
+    border-left: solid 3px #2199ca;
+    border-bottom: none;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .tab-control.mini-side-nav ul li.active a:hover, .tab-control.mini-side-nav ul li.active a:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .tab-control.mini-side-nav ul li a {
+    padding: 0.5em 1rem;
+  }
+  .tab-control.mini-side-nav ul li a:hover, .tab-control.mini-side-nav ul li a:focus {
+    border-bottom: none;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .tab-control.mini-side-nav ul li a i {
+    display: inline-block;
+  }
+}
+
+.sidebar {
+  background: #1f323a;
+  height: 100%;
+  padding: 20px;
+  color: white;
+  overflow-y: auto;
+}
+
+.sidebar-header {
+  margin-bottom: 16px;
+  line-height: 1.32;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.sidebar-header a.blurb-img {
+  width: 2.125rem;
+  float: left;
+  font-size: 4em;
+  padding: 0;
+  text-align: center;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  display: block;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.sidebar-header a.blurb-img:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+.sidebar-header .blurb-photo {
+  padding-top: 100%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 1px 1px #ddd;
+          box-shadow: 0px 0px 1px 1px #ddd;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar-header-link {
+  margin: 5px 0;
+}
+
+.sidebar-header-link a {
+  color: white;
+}
+
+.sidebar-body-section {
+  border-top: 1px solid #2e464e;
+  margin-bottom: 16px;
+  padding-top: 16px;
+}
+
+.sidebar-body-section-header {
+  width: 100%;
+  line-height: 1;
+  color: #a1a1a1;
+  font-weight: 700;
+  margin: 14px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sidebar-body-section-header-aside {
+  color: #a1a1a1;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: right;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar-body-section-header-aside:hover {
+  color: white;
+}
+
+.sidebar-body-section-list {
+  width: 100%;
+  margin: 0 -20px;
+}
+
+.sidebar-body-section-list-item {
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.sidebar-body-section-list-item.active {
+  background-color: transparent;
+  color: #31a9da;
+}
+
+.sidebar-body-section-list-item:hover {
+  background-color: rgba(12, 23, 27, 0.61);
+  cursor: pointer;
+}
+
+.sidebar-body-section-list-item i {
+  margin-right: 5px;
+}
+
+.sidebar-body-section-list-item.notification span {
+  float: right;
+  color: #a1a1a1;
+  font-weight: bold;
+}
+
+.sidebar-body-section-list-item.notification i:first-of-type {
+  margin-left: -12px;
+  margin-right: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 6px;
+  color: #31a9da;
+  position: absolute;
+}
+
+.sidebar-body-section-see-more {
+  padding: 0;
+}
+
+.sidebar-body-section-see-more button {
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.sidebar::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #49585f;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 0;
+}
+
 /*# sourceMappingURL=nebula-ui.css.map */
